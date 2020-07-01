@@ -1,0 +1,129 @@
+body{
+    margin: 0px;
+}
+.color_highlight{
+    color: rgb(206, 128, 141);
+    font-size: 37px;
+}
+h1{
+    font-wight: 800;
+    font-size: 25px;
+}
+p{
+    color: rgb(209, 185, 254)
+}
+.half_width{
+    width: 44%;
+    margin-left: 35px;
+    padding-left: 25px;
+    float: left;
+}
+.half_width p{
+    text-align: justify;
+}
+.image_class{
+    width: 340px;
+}
+.first_section{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    height: 400px;
+    background-image: url("images/header-bg.png");
+    background-attachment: scroll;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+.second_section{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    height: 400px;
+    background-image: url("images/biography-bg.png");
+    background-attachment: scroll;
+    background-position: left;
+    background-repeat: none;
+
+}
+
+.button_link{
+    text-decoration: none;
+    padding: 8px 12px;
+    color: white;
+    background-color: rgb(194, 95, 112);
+    border-radius: 5px;
+    background-image: linear-gradient( 60deg, rgb(216, 56, 83), rgb(216, 66, 91));
+}
+
+.latest_header{
+    text-align: center;
+}
+.third_section{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    height: 400px;
+    margin-left: 100px;
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.one_third{
+   width: 28%;
+   float: left;
+   margin-left: 15px;
+   padding-left: 15px;
+}
+.latest_img{
+    width: 300px;
+}
+.last_section{
+    width: 100%;
+    height: 400px;
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 66% 164%;
+}
+.last_section h1, p{
+    text-align: center;
+    color: black;
+}
+.last_section h1{
+    margin-bottom: 50px;
+}
+
+.client{
+    font-size: 10px;
+    color: rgb(209, 185, 254);
+    margin-bottom: 0px;
+}
+.name_client{
+    font-weight: bold;
+}
+.client_sayings{
+    font-size: 10px;
+}
+.contact{
+    margin-top:;
+    width: 387px;
+    margin-left: 34%;
+    text-align: center;
+    font-size: 10px;
+    /* padding: 10px; */
+    padding: 14px 10px;
+    border-radius: 7px;
+    background-image: linear-gradient(45deg, rgb(237, 75, 114),rgb(236, 79, 146));
+    margin-top: 30px;
+    color: white;
+    margin-bottom: 60px;
+}
+.contact h2{
+    font-size: 15px;
+}
+.contact p{
+    color: white;
+}
+.last_line{
+    font-size: 10px;
+    color: rgb(209, 185, 254);
+}
